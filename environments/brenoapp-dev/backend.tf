@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
-    prefix = "env/prod"
+    bucket = "brenoapp-dev-tfstate"
+    prefix = "env/dev"
   }
 }
